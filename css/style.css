@@ -1,0 +1,210 @@
+/*FUENTES*/
+
+@font-face {
+    font-family: 'tangerine';
+    src: url(../assets/Tangerine-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../assets/RobotoSlab-VariableFont_wght.ttf);
+}
+
+/*HEADER*/
+
+/*Barra de navegacion*/
+.navbar {
+    padding: 1.5rem;
+    background-color: #c9184a;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-item{
+    font-family: 'roboto';
+    font-size: 20px;;
+    font-weight: bold;
+    color: black;
+
+}
+
+/*Redes sociales barra*/ 
+.iconos-redes-sociales{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    
+}
+
+.iconos-redes-sociales i{
+    color:black;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+/*MAIN*/
+
+main{
+    background-color: black;
+}
+
+/*Portada Inicio*/
+.portada{
+    background-image: url(../assets/cardi-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+
+.portada-titulo{
+    font-family: 'tangerine';
+    font-style: italic;
+    color: rgb(234, 238, 11);
+    font-size: 150px;
+    font-weight: bolder;
+
+}
+
+/*Título Bio*/
+.titulo{
+    font-family: 'tangerine';
+    font-size: 55px;
+    font-weight: bold;
+    color: #ff0f80;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+/*Contenedor Bio*/
+.img-bio{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.biografia{
+    font-family: 'roboto';
+    font-size: 15px;
+    color: white;
+}
+
+/*Galeria Música*/
+.discografia img{
+    display: block;
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.discografia-contenedor{
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.titulo-disco{
+    font-family: 'roboto';
+    color: white;
+    font-size: 17px;
+}
+
+
+/*Seccion canales*/
+.invite-canales{
+    font-size: 'roboto';
+    font-size: 20px;
+    color: white;
+
+}
+
+.iconos-canales{
+    color: #ff0f80;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*Portada En Vivo*/
+.vivo-portada{
+    background-image: url(../assets/cardi-live-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 58vh;
+    width: 100vw;
+    opacity: 70%;
+}
+
+/*Título En Vivo*/
+.vivo-titulo{
+    font-family: 'tangerine';
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+.fila-vivo{
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+}
+
+.boton-vivo{
+    background-color:pink;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 4px;
+}
+
+/*Invitacion suscribir*/
+.invite-suscribir{
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+}
+
+/*Diseño formulario*/ 
+.formulario{
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.campo{
+   margin-bottom: 1rem;
+}
+
+.campo label{
+    font-family: 'roboto';
+    color: white;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.boton-submit{
+    background-color:pink;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 4px;
+    border: none;
+
+}
+
+
+/*FOOTER*/
+
+.pie-pagina{
+    background-color: #c9184a;
+    padding: 18px;
+}
+
+.pie-pagina-texto{
+    font-family: 'roboto';
+    font-size: 17px;
+    font-weight: bold;
+}
